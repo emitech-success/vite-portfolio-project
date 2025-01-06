@@ -1,4 +1,4 @@
-import aboutSvg from '../assets/about.svg';
+import aboutSvg from '../assets/undraw_working-remotely_ivtz.svg';
 import SectionTitle from './SectionTitle';
 
 const About = () => {
