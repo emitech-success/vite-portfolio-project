@@ -3,7 +3,7 @@ import { FaGithubSquare, FaHtml5, FaJs, FaLinkedin, FaReact, FaTwitterSquare } f
 import AgroEaseImg from './assets/agroEase.png';
 import TourImg from './assets/tour-pics.png';
 import UnsplashedImg from './assets/unsplashed-images.png';
-// import VeechangeImg from './assets/veechange-pics.png';
+import EmitechStore from './assets/emitech-store.png';
 import RobortoImg from './assets/robotofriend-pics.png';
 import CocktailImg from './assets/cocktail-pics.png';
 
@@ -37,6 +37,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: EmitechStore,
+    url: 'https://emitech-success.netlify.app/',
+    github: 'https://github.com/emitech-success/emitech-store',
+    title: 'Emitech Store',
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+  },
   {
     id: nanoid(),
     img: CocktailImg,
