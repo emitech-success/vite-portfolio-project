@@ -43,7 +43,7 @@ export const projects = [
     url: 'https://emitech-success.netlify.app/',
     github: 'https://github.com/emitech-success/emitech-store',
     title: 'Emitech Store',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    text: 'Emitech store is an online store that enables the user to register as a new user, login as an existing user with email address and password. Search items and add to cart. The user can also see previous orders.',
   },
   {
     id: nanoid(),
