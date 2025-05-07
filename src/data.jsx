@@ -4,6 +4,7 @@ import AgroEaseImg from './assets/agroEase.png';
 import TourImg from './assets/tour-pics.png';
 import UnsplashedImg from './assets/unsplashed-images.png';
 import EmitechStore from './assets/emitech-store.png';
+import EmitechNextStore from './assets/emitech-next-store.png';
 import RobortoImg from './assets/robotofriend-pics.png';
 import CocktailImg from './assets/cocktail-pics.png';
 
@@ -37,6 +38,14 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    id: nanoid(),
+    img: EmitechNextStore,
+    url: 'https://emy-next-store-lnxx.vercel.app/',
+    github: 'https://github.com/emitech-success/emy-next-store',
+    title: 'Emitech Next Store',
+    text: 'Emitech next store is an app with built with next js, superbase for the storage and clerk for authentication. It has both admin and customer side. An admin can add products, edits and view customers order.',
+  },
   {
     id: nanoid(),
     img: EmitechStore,
@@ -77,14 +86,7 @@ export const projects = [
     title: 'Unsplashed Images',
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
   },
-  // {
-  //   id: nanoid(),
-  //   img: VeechangeImg,
-  //   url: 'https://react-projects.netlify.app/',
-  //   github: 'https://github.com/john-smilga',
-  //   title: 'VeeChange',
-  //   text: 'VeeChange is a platform that allows the exchange of forex between users with ease and ensures that the transaction is completed and both parties are happy.',
-  // },
+  
   {
     id: nanoid(),
     img: RobortoImg,
